@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_care_steps_care_steps",
+  "info": {
+    "displayName": "CareSteps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

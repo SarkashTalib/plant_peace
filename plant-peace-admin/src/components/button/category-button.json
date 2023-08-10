@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_button_category_buttons",
+  "info": {
+    "displayName": "CategoryButton",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

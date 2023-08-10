@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_footer_copyright_copy_rights",
+  "info": {
+    "displayName": "CopyRight"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "logo.logo"
+    },
+    "copyright_text": {
+      "type": "string"
+    }
+  }
+}

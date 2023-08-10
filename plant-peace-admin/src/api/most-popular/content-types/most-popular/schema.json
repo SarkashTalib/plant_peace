@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "most_populars",
+  "info": {
+    "singularName": "most-popular",
+    "pluralName": "most-populars",
+    "displayName": "MostPopular",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "best_sellings": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::best-selling.best-selling"
+    }
+  }
+}

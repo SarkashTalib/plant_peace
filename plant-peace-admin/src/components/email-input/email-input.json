@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_email_input_email_inputs",
+  "info": {
+    "displayName": "Email Input",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "placeholder": {
+      "type": "string"
+    }
+  }
+}

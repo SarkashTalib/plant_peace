@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "best_sellings",
+  "info": {
+    "singularName": "best-selling",
+    "pluralName": "best-sellings",
+    "displayName": "BestSelling",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "CategoryButton": {
+      "displayName": "CategoryButton",
+      "type": "component",
+      "repeatable": true,
+      "component": "button.category-button"
+    }
+  }
+}
